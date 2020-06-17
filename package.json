@@ -2,9 +2,10 @@
   "name": "ssd",
   "version": "1.0.0",
   "description": "",
-  "main": "ssd.js",
+  "main": "ssg.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ssg.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,7 +14,6 @@
     "express-handlebars": "^4.0.4",
     "front-matter": "^4.0.2",
     "js-yaml": "^3.14.0",
-    "markdown-it": "^11.0.0",
-    "pug": "^3.0.0"
+    "markdown-it": "^11.0.0"
   }
 }
